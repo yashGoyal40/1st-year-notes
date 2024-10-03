@@ -1,0 +1,20 @@
+history of java : sun microsystem {james goslin}
+greentalk-> oak(national tree of a lot of countries)(already patented by oak technologies)-> java 
+name of coffee:  java coffee
+internet programming 
+platform indipendent 
+completely object oriented 
+bytecode {optimised platform indipendent code} (.class file)
+made on c++
+have a garbage  collector
+
+compiled and interpreted {.java file is compiled by javac compiler all the syntex errors and complie time errors are checked then a .class file is generated that is highly optimised byte code that will further be interpreted insid the jvm}
+
+robust, multithread, distributed, performance(optimised byte code), dynamic
+
+JDK(java devlopment kit )-> jre(java runtime envorenment) + other devlopment tools and compiler 
+
+jre -> jvm + application libraries 
+
+JVM ->  creates a platform to run a java byte code {hence not dependent on operating system}{can not understand .java file}
+

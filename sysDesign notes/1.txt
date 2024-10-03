@@ -1,0 +1,25 @@
+large scale distributed system 
+
+distributed system -> multiple servers 
+
+design paterns -> a software design pattern is a genral reusable solution to a commomly occouring problem within a given context in software design
+
+(common problem) -> (common solution)
+
+relaible 
+scalable 
+reusable 
+design
+
+step 1 -> define the problem (document)
+
+
+product requirements  -> features -> data definitions -> objects -> data base
+
+system should not collapse -> data duplication or load balancing 
+
+extencibility -> how easy is it to change 
+
+build a system that can be  change easly and extend easily with time 
+
+Testing 

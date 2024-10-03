@@ -1,0 +1,18 @@
+cpp-> classs
+
+obect oriented -> real world objects
+                  bottom up approach 
+
+procedural programming -> step by step approach using functions procedures 
+                          top down approach
+
+cin>>n;
+cout<<n;
+
+datypes->
+user defined -> struct , class , union , enumerations 
+derived -> array , pointer 
+predefined -> int char float 
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the buttons */
+.btn {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Open Three Tabs in Chrome</h2>
+
+<button class="btn" onclick="openTab()">Open Tabs</button>
+
+<script>
+function openTab() {
+    var urls = ["https://www.google.com/", "https://www.bing.com/", "https://www.yahoo.com/"];
+    for (var i = 0; i < urls.length; i++) {
+        var win = window.open(urls[i], '_blank');
+        win.focus();
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+strlen() - returns the length of a string.
+
+strcat() - concatenates (joins) two strings together.
+
+strcpy() - copies one string to another.
+
+strcmp() - compares two strings and returns an integer value indicating their relative order.
+
+strchr() - searches for a character in a string and returns a pointer to its first occurrence.
+
+strstr() - searches for a substring in a string and returns a pointer to its first occurrence.
+
+strtok() - breaks a string into a series of tokens based on a delimiter character.
+
+sprintf() - formats and stores a string into a buffer.
+
+sscanf() - reads formatted input from a string and stores the results in variables.

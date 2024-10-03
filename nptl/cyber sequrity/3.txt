@@ -1,0 +1,24 @@
+./Script kiddies or packet monkeys  --
+../Young or inexperienced hackers
+../Coppy codes and techniques from knowledgeable hackers
+
+.Experienced Penetration Testers Write Program or Scripts using --- (perl,python,js,visual basics,sql etc)
+
+Penetration- Testing Methodologies 
+./TIGER BOX
+../collection of hacking tools
+../usually on laptop
+../Helps penetration testers and sequrity testers conduct vunrabiolities accesmennts and atacks
+
+./White Box Model
+../Testers is told everything about the network and technologies
+../Testers are authorised to interview the IT personnel and employes
+../Makes the job a lot easier
+
+./Black box Model
+../Testers is not given the details about the network
+../Burden is on tester to find the details
+
+./Gray Box Model
+../ Hybrid of whitebox and grey box model
+

@@ -1,0 +1,29 @@
+BUILT IN DATA TYPES
+1. int
+2. float
+3. char (1 byte) - store 1 character 
+4. double - similar but bigger than float
+5. bool - true/false (0/1)
+
+USER DEFINED DATATYPES
+1. struct
+2. union
+3. enum
+
+DERIVED DATATYPES
+1. Array
+2. Fungtions
+3. Pointers
+
+scope -(similar to availibility ) -- 2 types
+1. local variable
+2. global variable
+(they can be of same name but prefrence is given to local variable)
+
+RULES OF VARIABLE
+1. var can range 1 to 255 char
+2. must begin with letter/alphabet/_
+3. can contain numbers
+4. no space or any other special char
+5. no keyword
+6. case senstive

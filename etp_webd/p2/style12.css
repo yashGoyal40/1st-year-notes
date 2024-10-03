@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    height: 0;
+}
+.up{
+    background-color: aqua;
+    width: 100vw;
+    height:10vh;
+}
+.page{
+    min-height: 80vh;
+}
+.right{
+    background-color: brown;
+    width: 10vh;
+    height: 80vh;
+    display: inline-block;
+}
+.left{
+    background: coral;
+    width: 10vh;
+    height: 80vh;
+    margin-right:87.24vw;
+    display: inline-block;
+}
+.down{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}

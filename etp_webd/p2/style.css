@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    /* background-color:brown; */
+    height: 122px;
+    width: 100vw;
+}
+.imgg{
+    height:90px;
+    border-radius: 48px;
+    padding: 14px;
+}
+#name{
+    /* border: 40px solod coral; */
+    /* background-color:coral; */
+    color: black;
+    margin-top: 18px;
+    font-size: 54px;
+    border-radius: 24px;
+}
+#login{
+    /* color: white; */
+    position: absolute;
+    text-align: center;
+    right: 191px;
+    margin-top: 38px;
+    font-size:xx-large;
+}
+#about{
+    /* color: white; */
+    position: absolute;
+    text-align: center;
+    right: 55px;
+    margin-top: 38px;
+    font-size: xx-large;
+}
+#login:hover,#about:hover{
+    color:coral;
+    background-color: white;
+    border: 6px solid white;
+    border-radius: 23px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+body{
+    background-image: url(/etp_webd/p2/unsplash-bonus.jpg);
+    background-size: cover;
+}

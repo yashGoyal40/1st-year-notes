@@ -1,0 +1,18 @@
+#rtx{
+    background-color: aqua;
+    width: fit-content;
+    color:rgb(78, 75, 75);
+}
+#pll{
+    text-align:center;
+};
+
+#kll{
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+#lmm{
+    display: grid; 
+    grid-template-columns: auto auto;
+
+}

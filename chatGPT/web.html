@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      
+      .nav-links {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+      }
+      
+      .nav-links li {
+        list-style: none;
+      }
+      
+      .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 15px;
+      }
+      
+      .burger {
+        display: none;
+        cursor: pointer;
+      }
+      
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .nav-links {
+          display: none;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .nav-links li {
+          margin: 10px 0;
+        }
+      
+        .burger {
+          display: block;
+        }
+      }
+      .navbar img{
+        height: 34px;
+      }
+      </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"><img src="/binge music/android-chrome-512x512.png" alt=""></a>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>      
+</body>
+</html>

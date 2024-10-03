@@ -1,0 +1,11 @@
+y=10
+s=":"
+y=str(y)
+d=y+s
+print(d)
+a={"a":1,"b":2}
+a["c"]=3
+print(a)
+x=a.setdefault("a",2)
+print(x)
+print(a)

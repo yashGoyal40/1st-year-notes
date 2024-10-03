@@ -1,0 +1,29 @@
+.el{
+    display: inline;
+    text-align: center;
+    border: 14px rgb(239, 10, 10) solid;
+    background-color: rgb(162, 244, 29);
+    font-size: x-large;
+    display: grid;
+    padding: 100px;
+}
+.el:hover{
+    background-color: rgb(6, 6, 6);
+    font-size: xx-small;
+    font-family: jokerman;
+    border: 14px rgb(6, 6, 6) double;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    column-gap: 30px;
+    row-gap: 30px;
+    background-color: rgb(6, 6, 6);
+}
+body{
+    background-color: rgb(6, 6, 6);
+}
+#el1{
+    -ms-grid-row-span: initial;
+}

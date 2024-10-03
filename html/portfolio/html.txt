@@ -1,0 +1,9 @@
+PAGE LAYOUT TECNIQUE
+2 type of tags 
+1. semantic tags <jinko dekh ke unksa mtlb samaj aa jaye><eg header footer>
+2. non semantic <semantic ka ulta > <div, span>
+advantages of sementic tab 
+ 1. code become redable
+ 2. better seo(search engine optemisation) rankings
+ 3. good user experience 
+ ***span tag is also used as to create a devision as div but it takes its width as per size ***

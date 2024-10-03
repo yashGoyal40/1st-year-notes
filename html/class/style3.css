@@ -1,0 +1,29 @@
+p{
+    color: aqua;
+}
+strong{
+    /* direction: ltr; */
+    color: rgba(4, 250, 33, 0.993);
+}
+.blue{
+    background-color: aqua;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration: dotted; */
+    text-transform: uppercase;
+    text-shadow: 4px;
+}
+.er{
+    text-indent: 180px;
+    /* letter-spacing: 6px; */
+    line-height: 40px;
+    text-shadow: 4px 1px blue;
+    direction: ltr;
+    word-spacing: 15px;
+
+}
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}

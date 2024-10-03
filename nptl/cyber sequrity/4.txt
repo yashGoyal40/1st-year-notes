@@ -1,0 +1,14 @@
+----Be aware of the laws of the land ----
+
+certain Legal Notations -
+./Accessing a computer without permission is illogal
+./Installing worms or viruses
+./Denial of Service attacks
+./Denying users access to network resources
+(be carefull your actions do not prevent customers doing their job)
+
+Things to learn --- 
+./knowledge of network and computer technologies
+./Ability to communicate with Management
+./Understanding the laws
+./Ability to use necessary tools

@@ -1,0 +1,19 @@
+GAINING ACCESS --
+1. Front Door - Password guessing
+                password/key stealing
+
+2. Back Doors - often left by original developers as debug and/or dignostic tools
+
+3. Torjan Horses - Usually hidden small software downloaded and install from the net with another primary software
+--Many install backdoors(throw vernabilities can gain access)
+
+4.  Software Vurnerabilities Exploitation - 
+    Often advertise in the Orignal manufacturer's website with the security paches
+    Fertile ground for script Kiddies(new people in the feild)
+
+Once insite the hacker can --
+1.Modify Logs(to cover their tracks)
+2.Steal files (destroy some files)
+3.Modify files(to let you know they were here)
+4.Install back doors(so they can get in again)
+5.Atack other systems

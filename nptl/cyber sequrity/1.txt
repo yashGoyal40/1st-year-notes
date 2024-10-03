@@ -1,0 +1,18 @@
+Ehical Hacking- act of locating weaknesses and vunrabilities by replicating the intent and actions of malacious hackers
+
+Ethical Hackers - Employed by the companies
+
+Penetration Testing - leagal attempt to break into a network/system/infrastructire
+Testers usually do report findings,does not provide solutions
+
+Sequrity Testing - also includes solutions
+
+Hacking- showing computer expertise
+
+cracking - breaching the sequrity 
+
+spoofing - faking identity(faking originating Ip address in a datagram)
+
+Deniel of services(DoS) - flooding a server/host with enough network traffic to make it slow and eventually it stops responding
+
+Port Scanning - searching for (active ports) then vurnerabilities

@@ -1,0 +1,15 @@
+.red{
+    background-color:rgba(110, 5, 5, 0.119) ;
+
+}
+.green{
+    background-color: rgba(237, 87, 87, 0.119) ;
+
+}
+h1{
+    background-color: rgb(205, 171, 238);
+}
+*{
+    margin: 0%;
+    border: 0%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript For Loop</h2>
+    <p id="demo"></p>
+    <script>
+        let text = "";
+        for (let i = 0; i < 6; i++) {
+        text += "The number is " + i + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+        let c=0
+        for (let i =0;i<7;i++){
+            c+=i
+        }
+        document.write(c+"<br>")
+        const per={fname:"jhon",lname:"doe",age:25}
+        let txt=""
+        for (let x in per){
+            txt+=per[x]+" "
+        }
+        document.write(txt+"<br>")
+        let language = "JavaScript";
+        let text1 = "";
+        for (let x of language) {
+            text1 += x + "-";
+        }
+        let cc=""
+        let i=0
+        while(i<10){
+            cc+="<br>The Number is"+i
+            i++
+        }
+        document.write(text1+"<br>")
+        document.write(cc+"<br>")
+        do{
+            cc+="<br>hiii"+i
+            i++
+        }
+        while(i<20)
+        document.write(cc+"<br>")
+        alert("i am alert box")
+    </script>
+
+</body>
+</html>

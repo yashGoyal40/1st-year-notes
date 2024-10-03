@@ -1,0 +1,7 @@
+Inline functions -> helps to decrease execution time 
+
+copiler can replace the definition form where they are  called 
+
+
+static data members belong to class itself ->>> instead of instance of a class 
+

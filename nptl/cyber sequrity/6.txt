@@ -1,0 +1,21 @@
+HOW PACKETS ARE transmitted
+./virtual circuit
+./datagram(mostyly used in internet)
+1. virtual circuit Approach --
+similar in concept to circuit switching
+./a route is established before packets transmission starts
+./all packets follow the same path
+./the paths are not asigned dedicatedly to a perticular data like circuit switching wich means they can also be shared to another virtual circuits
+
+Virtual Circuit Approach 
+./Route is stabilished
+
+./Packet forwarded fromn one node to next using store-and-forward scheme
+
+./each virtual circuit is given its virtual circuit number(known to all the intermediate node when the connection is been stabilished)
+
+./when packets are been transmitted the header will contain only the virtual circuit number
+
+[the path will already be decided for a virual circuit so the routing can be easily done just by the virtual circuit number]
+[no dynamic routing decision will be taken by intermediate nodes]
+DRAWBACK -- not dynamic or adaptive if the some of the links are loaded already and became slow the path will not be changed 

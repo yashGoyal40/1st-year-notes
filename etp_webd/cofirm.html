@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function hi(){
+            window.confirm("do you yant to submit the exam")
+        }
+        const per={
+            fn:"yash",
+            ln:"goyal",
+            age:19,
+            ec:"brown"
+        }
+        per.age=18
+        per.cc="243"
+        delete per.ec
+        document.write(per["fn"]+" is "+per["age"]+per["cc"])
+    </script>
+    <button type="button" onclick="hi()">confirm</button>
+</body>
+</html>

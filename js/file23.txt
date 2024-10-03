@@ -1,0 +1,16 @@
+primitives - they are stored in the memory in stack format(works in LIFO)
+so the data is unmutable if we replace one the other will on change 
+because it has its own position in the stack and change in one will not
+affect the second one 
+ (they did not take much memory)
+
+refrence type- (array)
+the refrence type objects are stored at HEEP
+there wwould be a pointer in the stack instad of the full array
+that pointer will have the location of the actual array inside the heep
+in the previous case we have a data(array) which is stored in heep
+and stack have the pointer to it 
+if we create the new array and will have the pointer to the same location
+in the heep if we change 1 the data from the heep is changed 
+so the other will automatically change 
+

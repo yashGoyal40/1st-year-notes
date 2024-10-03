@@ -1,0 +1,8 @@
+body{
+    /* background-image: url(/html/portfolio/download\ \(1\).jpg);
+    background-repeat:round;
+    background-attachment: fixed;
+    /* background-color:pink; */
+    /* background-position: center; */
+    background: pink url(/html/portfolio/download\ \(1\).jpg) no-repeat center fixed;
+}

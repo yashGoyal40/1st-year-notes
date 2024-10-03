@@ -1,0 +1,47 @@
+BASICS OF COMPUTER NETWORKS
+COMPUTER NETWORK
+./its a communication asystem for connecting computers/hosts/devices
+WHY??
+./better connectivity
+./Better communication
+./better sharing resources
+./bringing people together
+
+TYPES 
+./ LAN(small area)---(ususally ethernet)---(faster)---(cheaper)
+./ WAN(wide area)---(usually internet)---(slower)---(expencive)
+
+Data Communication in A network
+./packet switching
+./circuit switching
+
+CIRCUIT SWITCHING 
+./a dedicated path is established betwen two stations(fix sequence)
+[LOGICAL CHANNEL - guaranee the bandwidth]
+.//Connection stabilishment [before the data transmission]
+.//Data tranfer[maximum possible speed on a dedicated bandwidth]
+.//Connection Termination (after the data tranmition)
+
+./Drawbacks: 
+1.channel is dedicated during the entire duration of communication(very inefficient for bursty traffic like data)
+(for voice communicztion voice is not transmitted in burst its usually constant it this model works for voice communication)
+2. ther is an initial delay(for stabilishment of the connection)
+
+
+PACKET SWITCHING
+(mordern form and widely use for long distance communication)
+../Network resources are not dedicated(all links can be shared)
+
+./data is brocken up into smaller chunk called packets
+./each packet there is a header which have the information for routing
+[Store-and-forward concept]
+../Each intermediate network node recives a whole packet
+../ the intermediate node decides the route 
+../ Forwards the packet along the selected route
+./Each intermediate node(router) mantains a [routing table]
+
+ADWATAGES OF PACKER SWITCHING
+./link can be shared so link utalisation is better
+./Suitable for a computer-genrated(bursty) traffic
+./Buffering(storing a data in a buffer and then sharing it to the another data link having diffrent speed) and data convertion can be performed easily
+./Some packets may be given priority to the packets
